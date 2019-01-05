@@ -1,0 +1,17 @@
+body {
+
+}
+
+.myResponse{
+    display: none;
+}
+
+.loading{
+    display: none;
+}
+
+.error{
+    display: none;
+    color: red;
+    width: 100%;
+}
