@@ -57,54 +57,54 @@
 					</ul>
 				</div>
 				<div class="large-8 columns">
-					<orm onsubmit="return contato(this);return false;" method="post" name="classe" id="classe" data-netlify="true" action="/index.html">
-						<div class="row">
-							<div class="large-8 columns">
-								<label class=>Nome
-									<input type="text" id="nome" name="nome" required placeholder="Nome (obrigatório)" autofocus="" />
-								</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-8 columns">
-								<label class=>Email
-									<input type="email" id="email" name="email" required placeholder="Email (obrigatório)" />
-								</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-8 columns">
-								<label class=>Telefone
-									<input type="tel" id="telefone" name="telefone" placeholder="Telefone" autocomplete="on" />
-								</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-8 columns">
-								<label class=>Assunto
-									<input type="text" id="assunto" name="assunto" required placeholder="Assunto (obrigatório)" />
-								</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-8 columns">
-								<label class=>Mensagem 									<textarea rows="8" id="mensagem" name="textodamensagem" required placeholder="Mensagem (obrigatório)"></textarea> </label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="large-8 columns">
-								<input type="submit" required id="enviar" name="enviar"  value="Enviar" />
-							</div>
-						</div>
+					<form onsubmit="return contato(this);return false;" method="post" name="classe" id="classe" data-netlify="true" action="/agenda.html">
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <label class=>Nome
+                                    <input type="text" id="nome" name="nome" required placeholder="Nome (obrigatório)" autofocus="" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <label class=>Email
+                                    <input type="email" id="email" name="email" required placeholder="Email (obrigatório)" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <label class=>Telefone
+                                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone" autocomplete="on" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <label class=>Assunto
+                                    <input type="text" id="assunto" name="assunto" required placeholder="Assunto (obrigatório)" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <label class=>Mensagem                                     <textarea rows="8" id="mensagem" name="textodamensagem" required placeholder="Mensagem (obrigatório)"></textarea> </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-8 columns">
+                                <input type="submit" required id="enviar" name="enviar"  value="Enviar" />
+                            </div>
+                        </div>
 
-						<div class="error">
-							<span id="Erro"></span>
-						</div>
-						<div class="myResponse" id="resposta"></div>
+                        <div class="error">
+                            <span id="Erro"></span>
+                        </div>
+                        <div class="myResponse" id="resposta"></div>
 
-						<div class="loading" id="carregando"><img src="wait.gif" alt="">
-						</div>
-					</form>
+                        <div class="loading" id="carregando"><img src="wait.gif" alt="">
+                        </div>
+                    </form>
 				</div>
 			</div>
 		</section>
